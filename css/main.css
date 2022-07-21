@@ -321,6 +321,26 @@ margin: 0 auto;
     background-color: var(--blue);
 }
 
+.dev-images{
+    width: 5em;
+    height: auto;
+    border-radius: 5em;
+}
+
+.devs-container{
+    margin: 2em 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.devs-container p{
+    margin: auto 0;
+    margin-left: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
 /*************************MEDIA QUERIES TABLET*************************/
 @media only screen and (min-width:576.1px) and (max-width: 992px) {
     .logo{
